@@ -1,0 +1,147 @@
+body {
+	font-family: Open Sans,sans-serif,Arial;
+	color: black;
+	text-align: center;
+ }
+
+ h1 {
+ 	text-align: left;
+ 	color: #FF8300;
+ 	font-family: Open Sans,sans-serif,Arial
+ 	font-size: 29px;
+ 	line-height: 20px;
+ 	letter-spacing: 12px
+ 	font-weight:400;
+ }
+h2:hover {
+	color: #FF8300;
+}
+
+.entete {
+	display: contents;
+}
+
+.annonce{
+	display: table-cell;
+    padding: 1px;
+    box-shadow: none;
+}
+
+.element {
+	display: table-cell;
+    justify-content: center;
+    box-shadow: none;
+}
+ img {
+ 	border-radius: 3px
+
+ }
+
+.photo{
+	box-shadow:none;
+}
+.block {
+	box-shadow: none;
+	display: table-cell;
+}
+ .screen{
+ 	display: table-cell;
+ 	height: 80px;
+    margin: 10px -40px;
+ }
+#screen{
+	height: 50px;
+    margin: 10px -40px;
+}
+
+#buttom {
+	text-align: center;
+    margin-right: -500px;
+    padding: 10px;
+    margin-top: -100px;
+    background-color: #FF8300;
+}
+
+#butom {
+	text-decoration: none;
+	background-color: #1E90FF;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 3px;
+}
+#boutton {
+	text-decoration: none;
+	background-color: #1E90FF;
+    color: white;
+    padding: 10px 155px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	background-color: #FF8300;
+    color: black;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+a:hover {
+	color: white;
+}
+p {
+	text-align: center;
+	color; rgb(30, 30, 30);
+	font-style: bold;
+
+}
+
+ul> li {
+	display: inline;
+}
+
+ul {
+	padding: 0;
+}
+
+div {
+	background-color: white;
+	padding: 20px;
+	margin: 50px;
+	border-radius: 8px;
+	box-shadow: 3px 5px 10px rgba(230, 230,230, 0.8);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
